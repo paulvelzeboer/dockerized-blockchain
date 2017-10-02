@@ -72,7 +72,7 @@ by default.
 
 ### 1.3. Test accounts ready for use
 
-As part of the bootstrapping process we bootstrap 10 Ethereum accounts for use
+As part of the bootstrapping process we bootstrap 2Ethereum accounts for use
 pre-filled with 20 Ether for use in transactions by default.
 
 If you want to change the amount of Ether for those accounts
