@@ -82,14 +82,7 @@ See ```files/genesis.json```.
 
 If you want to start mining or stop mining you need to connect to the node via:
 ```
-docker exec -it dockerethereum_eth_1 geth attach ipc://root/.ethereum/devchain/geth.ipc
+docker exec -it blockchaindocker_eth_1 geth attach ipc://root/.ethereum/devchain/geth.ipc
 ```
-Replace ethereumdocker_geth_1 with the container name you wish to connect to.
+Replace blockchaindocker_eth_1 with the container name you wish to connect to.
 
-### 2.1 Use existing DAG
-
-To speed up the process, you can use a pre-generated DAG. All you need to do is add something like this
-```
-ADD dag/full-R23-0000000000000000 /root/.ethash/full-R23-0000000000000000
-```
-to the monitored-geth-client Dockerfile.
